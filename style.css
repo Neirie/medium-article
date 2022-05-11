@@ -1,0 +1,95 @@
+#banner {
+  background-image: url("https://source.unsplash.com/random/1000x500");
+  background-size: cover;
+  height: 300px;
+}
+
+h1 {
+  color:white;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+
+h2 {
+  color:grey;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h3 {
+  color:red;
+  font-size: 20px;
+  font-weight: normal;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+
+body {
+  color:black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: normal;
+}
+
+a {
+  color: rgb(36, 36, 49);
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  background-image: linear-gradient(30)
+}
+
+a:hover {
+  text-decoration: underline;
+  color: aqua;
+  background-image: linear-gradient(70)
+}
+
+.header {
+  margin-top: 30px;
+  padding-top: 30px;
+  color:white;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+
+.container {
+  width: 50px auto;
+  margin: 50px auto;
+}
+
+.footer{
+  margin-top: 30px;
+  padding-top: 30px;
+  width: 50px auto;
+  margin: 50px auto;
+  border-top: normal dotted;
+  border-color: green;
+  opacity: 0,5;
+  height: 80px;
+  border-radius: 5px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
